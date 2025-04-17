@@ -91,7 +91,7 @@ button.MouseButton1Click:Connect(function()
     statusLabel.Text = "Executing..."
     local success, result = pcall(function()
         return 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Petsimscripts-25/Petsimscript1/refs/heads/main/Script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rizz12351/The-script-/refs/heads/main/Script", true))()
     end)
 
     if success then
